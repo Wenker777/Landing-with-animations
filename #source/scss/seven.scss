@@ -1,0 +1,176 @@
+.seven {
+	background-color: #F6F6F8;
+}
+a{
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 14px;
+	color: #999999;
+}
+
+.seven__row {
+}
+.seven__columns {
+	display: flex;
+	justify-content: space-between;
+}
+.seven__column {
+	margin: 70px 7px 0px 7px;
+}
+.seven__title {
+	font-family: 'Montserrat';;
+	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: 35px;
+}
+.seven__list-mcm {
+
+}
+.seven__list-first li{
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 14px;
+	color: #999999;
+	padding: 0 0 0 30px;
+}
+.seven__list-first li:first-child{
+	background-image: url('../img/seven/message.png');
+	background-size: 15px 15px;
+	background-position: left;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
+}
+.seven__list-first li:nth-child(2){
+	background-image: url('../img/seven/call.png');
+	background-size: 15px 15px;
+	background-position: left;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
+}
+.seven__list-first li:last-child{
+	background-image: url('../img/seven/map.png');
+	background-size: 15px 15px;
+	background-position: left;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
+}
+.seven__list-main {
+}
+.seven__list-sec li{
+	background-image: url('../img/seven/right-arrow.png');
+	background-size: 10px 10px;
+	background-position: left;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
+}
+.seven__list-sec li:last-child{
+	margin-bottom: 30px;
+}
+.seven__list-links{
+	margin: 0 0 0 15px;
+}
+
+.seven__list-our {
+}
+.seven__list-third li{
+	background-image: url('../img/seven/right-arrow.png');
+	background-size: 10px 10px;
+	background-position: left;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
+}
+.seven__list-third li:nth-child(3){
+	margin-bottom: 20px;
+	}
+.seven__list-third li:last-child{
+line-height: 30px;
+}
+.seven__list-soc {
+}
+.seven__list-fourth li{
+	background-image: url('../img/seven/right-arrow.png');
+	background-size: 10px 10px;
+	background-position: left;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
+}
+.seven__rights {
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 21px;
+	text-align: center;
+	color: #999999;
+	padding: 30px 0;
+	border-top: 1px solid #E0E0E0;
+}
+@media (max-width: 767px){
+	.seven__row {
+	}
+	.seven__columns {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		margin: 0 15px;
+	}
+	.seven__column {
+		margin: 70px 0px 0px 10px;
+		padding: 0 0 0 0;
+	}
+
+	.seven__list-first li{
+		line-height: 20px;
+	}
+	.seven__list-first li:last-child{
+		background-image: url('/img/seven/map.png');
+		background-size: 15px 15px;
+		background-position: left;
+		background-repeat: no-repeat;
+		margin-bottom: 0px;
+	}
+	.seven__list-main {
+	}
+	.seven__list-sec li{
+		background-image: url('../img/seven/right-arrow.png');
+		background-size: 10px 10px;
+		background-position: left;
+		background-repeat: no-repeat;
+		margin-bottom: 30px;
+		line-height: 20px;
+	}
+	.seven__list-sec li:last-child{
+		margin-bottom: 0px;
+	}
+	.seven__list-links{
+		margin: 0 0 0 15px;
+	}
+	
+	.seven__list-our {
+	}
+	.seven__list-third li{
+		background-image: url('../img/seven/right-arrow.png');
+		background-size: 10px 10px;
+		background-position: left;
+		background-repeat: no-repeat;
+		margin-bottom: 30px;
+	}
+	.seven__list-soc {
+	}
+	.seven__list-fourth li{
+		background-image: url('../img/seven/right-arrow.png');
+		background-size: 10px 10px;
+		background-position: left;
+		background-repeat: no-repeat;
+		margin-bottom: 30px;
+	}
+	.seven__rights {
+		font-family: 'Montserrat';
+		font-weight: 400;
+		font-size: 13px;
+		line-height: 21px;
+		text-align: center;
+		color: #999999;
+		padding: 30px 0;
+		border-top: 1px solid #E0E0E0;
+	}
+}

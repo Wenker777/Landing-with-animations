@@ -1,0 +1,22 @@
+@import "nullstyle.scss";
+@import 'main-screen.scss';
+@import 'second.scss';
+@import 'third.scss';
+@import 'fourth.scss';
+@import 'fifth.scss';
+@import 'six.scss';
+@import 'seven.scss';
+%undeline{
+	height: 1px;
+	background-color: #FFFFFF;
+}
+.wrapper {
+	overflow: hidden;
+}
+.content {
+}
+.container{
+	max-width: 1130px;
+	margin: 0px auto;
+}
+

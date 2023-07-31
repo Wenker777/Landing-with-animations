@@ -1,0 +1,60 @@
+.fifth {
+  background-color: #F6F6F8;
+}
+
+.fifth__title-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fifth__title-text p:first-child {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  margin: 100px 0 50px 0;
+}
+
+.fifth__title-text p:last-child {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+  margin: 0 0 70px 0;
+}
+
+.fifth__images {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 30px 20% 30px 20% 30px 20% 30px 20%;
+  grid-template-columns: repeat(5, 20%);
+  gap: 30px;
+  padding: 0 15px;
+}
+
+.fifth__image {
+  background-image: url("/img/five/five.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 255px;
+  margin-bottom: 50px;
+}
+
+.fifth__buttonT {
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 45px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 0 130px 0;
+}
